@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #00050D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Landingpage */
+/* Nav */
+nav{
+    height: 20vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.logoblok{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoblokimg{
+    width: 200px;
+}
+.dropdownblok{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.dropdowntekst{
+    font-size: 28px;
+    color: white;
+    background: transparent;
+}
+.signin_nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.signin_navspace{
+    width: 70%;
+    height: 100%;
+}
+.signin_blok{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.settings{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signintekst{
+    color: white;
+    font-size: 28px;
+    background-color: #1A1A1A;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+}
+.signintekst:hover{background-color: white; color: #0079c4; cursor: pointer;}
+.dropdowntekst:hover{color: #0079c4; cursor: pointer;}
+/* Header */
+header{
+    width: 99vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.headerbox1{
+    height: 90%;
+    width: 60%;
+    background-color: #1A1A1A;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 35px;
+}
+.headerimg1{
+    width: 900px;
+    border-radius: 35px;
+    margin-left: 25px;
+}
+
+.headerbox2{
+    height: 90%;
+    width: 30%;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 35px;
+}
+.headerimg2{
+    width: 300px;
+    border-radius: 35px;
+}
+/* !!!! */
+/* Body */
+/* !!!! */
+.container1{
+    height: 100vh;
+    width: 99vw;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+.movierow1{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.movierowtekst{
+  font-size: 24px;
+  color: white;
+  background: none;
+  padding-left: 130px;
+}
+.left{
+    width: 95px;
+    background: transparent;
+}
+.right{
+    width: 95px;
+    background: transparent;
+}
+.movie{
+    width: 195px;
+    height: 80%;
+    background-color: #1A1A1A;
+    border-radius: 15px;
+}
+.movierow2{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.container2{
+  height: 100vh;
+  width: 99vw;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+}
+.container3{
+    height: 100vh;
+    width: 99vw;
+}
+/* Sign Up Page & Dashboard etc...*/
+.signupcontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signupblok{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 100px;
+    background-color: #1A1A1A;
+}
+.resulttekst1{
+    font-size: 40px;
+    color: white;
+    background: none;
+}
+.resulttekst2{
+    font-size: 25px;
+    color: white;
+    background: none;
+}
+.signup_form{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px;
+    background: none;
+}
+.register_tekst{
+    font-size: 40px;
+    color: white;
+    background: none;
+    padding: 15px;
+}
+.signin_row{
+    height: 50px;
+    width: 80%;
+    margin-top: 15px;
+    background-color: #3a3a3a;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rowtekst{
+    font-size: 15px;
+    color: white;
+    background: none;
+    padding: 30px;
+}
+.rowinput{
+    width: 25vw;
+    height: 4vh;
+    font-size: 15px;
+    color: white;
+    background: #3a3a3a;
+}
+.ageimput{
+    width: 5vw;
+    height: 4vh;
+    font-size: 15px;
+    color: white;
+    background: #3a3a3a;
+}
+.rowcheckbox{
+    height: 32px;
+    width: 32px;
+    display: flex;
+    background: transparent;
+}
+.rowsubmit{
+    width: 32vw;
+    height: 4vh;
+    margin-left: 30px;
+    font-size: 15px;
+    color: white;
+    background: #3a3a3a;
+}
+.gobackdash{
+    color: white;
+    font-size: 28px;
+    background-color: #1A1A1A;
+    padding: 15px;
+    border-radius: 50px;
+    width: 900px;
+    cursor: pointer;
+    border: 0;
+}
+.dashcontainer{
+    height: 80vh;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.dashblok{
+    height: 99%;
+    width: 95%;
+    background-color: #1A1A1A;
+    border-radius: 100px;
+    display: flex;
+}
+.gotobutton{
+    width: 400px;
+    padding: 15px;
+    background-color: #3a3a3a;
+    color: white;
+    margin-top: 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+.gotobutton:hover{background-color: white; cursor: pointer; color: black;}
+/* Movie Page */
+.moviecontainer{
+    width: 99vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.movieblok1{
+    width: 30%;
+    height: 90%;
+    background-color: #3a3a3a;
+    border-radius: 50px;
+    justify-content: baseline;
+    flex-direction: column;
+    display: flex;
+}
+.movieblok2{
+    width: 60%;
+    height: 90%;
+    background-color: #3a3a3a;
+    border-radius: 50px;
+}
+.movietitletekst{
+    font-size: 35px;
+    color: white;
+    background: none;
+    padding: 55px;
+}
+.moviedescriptiontekst{
+    font-size: 25px;
+    color: white;
+    background: none;
+    margin-left: 55px;
+    width: 75%;
+}
+/* Footer */

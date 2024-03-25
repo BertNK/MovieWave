@@ -34,7 +34,7 @@
             </div>
         </div>
     </nav>
-    <header id="1">
+    <header>
       <a href="movies/movie.php" class="headerbox1">
             <img src="assets/duneparttwo.webp" class="headerimg1">
       </a>

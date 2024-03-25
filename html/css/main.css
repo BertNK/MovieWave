@@ -8,7 +8,7 @@
 /* Landingpage */
 /* Nav */
 nav{
-    height: 20vh;
+    height: 15vh;
     width: 99vw;
     display: flex;
     flex-direction: row;
@@ -98,13 +98,13 @@ header{
     border-radius: 35px;
 }
 .headerimg1{
-    width: 900px;
+    width: 100%;
     border-radius: 35px;
     margin-left: 25px;
 }
 
 .headerbox2{
-    height: 90%;
+    height: 83%;
     width: 30%;
     background-color: #1A1A1A;
     display: flex;
@@ -127,6 +127,7 @@ header{
     align-items: baseline;
     justify-content: center;
     flex-direction: column;
+    margin-top: 100px;
 }
 .movierow1{
     height: 50vh;
@@ -151,7 +152,7 @@ header{
     background: transparent;
 }
 .movie{
-    width: 195px;
+    width: 235px;
     height: 80%;
     background-color: #1A1A1A;
     border-radius: 15px;

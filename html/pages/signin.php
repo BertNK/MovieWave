@@ -10,9 +10,9 @@
 
 <body>
     <div class="signupcontainer">
-        <div class="signupblok">
-            <form class='signup_form' name="register" method="POST" action="signup_logic.php">
-                <a class='register_tekst'>Sign In</a>
+    <div class="signupblok">
+            <form class='signup_form' name="register" method="POST" action="signin_logic.php">
+                <a class='register_tekst'>Sign in</a>
                 <div class="signin_row">
                     <p class="rowtekst">Username
                     <p>
@@ -24,10 +24,10 @@
                         <input type='password' name='password' class="rowinput" required>
                 </div>
                 <div class="signin_row">
-                    <input type='submit' name='submit' value='Sign in' class="rowsubmit" required>
+                    <input type='submit' name='submit' value='register' class="rowsubmit" required>
                 </div>
                 <a class="gotobutton" onclick="location.href='signup.php'">
-                    If you dont have a account, click me to create one!
+                    If you already have a account, click me to login!
                 </a>
             </form>
         </div>

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <title>Sign Up</title>
 </head>
-
+<!-- Sign Up -->
 <body>
     <div class="signupcontainer">
         <div class="signupblok">
@@ -39,7 +39,7 @@
                         <input type='checkbox' name='terms' class="rowcheckbox" required>
                 </div>
                 <div class="signin_row">
-                    <input type='submit' name='submit' value='Send' class="rowsubmit" required>
+                    <input type='submit' name='submit' value='register' class="rowsubmit" required>
                 </div>
                 <a class="gotobutton" onclick="location.href='signin.php'">
                     If you already have a account, click me to login!

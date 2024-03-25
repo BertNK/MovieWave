@@ -29,6 +29,8 @@
         <div class="movieblok1">
             <a class="movietitletekst">Dune: Part two</a>
             <a class="moviedescriptiontekst">Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.</a>
+
+            <a class="movietitletekst">Rating: 8,8/10 ⭐</a>
         </div>
         <div class="movieblok2">
             

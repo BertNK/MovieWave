@@ -38,7 +38,6 @@
         <div class="headerbox2">
             <a class="headerboxtekst1">Dune: Part two.</a>
             <a class="headerboxtekst2">Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.</a>
-            <a class="headerboxtekst3">Rating: 8,8/10 ⭐</a>
         </div>
     </header>
     <!-- Body -->

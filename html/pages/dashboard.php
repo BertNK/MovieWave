@@ -1,9 +1,5 @@
-<?php
+ <?php
 session_start();
-if (!isset($_SESSION["user"])){
-    header("Location: signup.php");
-    exit();
-}
 ?>
 
 
@@ -29,6 +25,7 @@ if (!isset($_SESSION["user"])){
             <div class="signin_navspace"></div>
             <div class="signin_blok">
             </div>
+            <button class="gobackdash2" onclick="location.href='logout.php'">Logout</button>
             <button class="gobackdash" onclick="location.href='/index.php'">Go to the main menu..</button>
         </div>
         </div>

@@ -1,5 +1,6 @@
 <?php
     include("pages/com.php");
+
 ?>
 
 <!DOCTYPE html>
@@ -18,11 +19,6 @@
         <a class="logoblok">
             <img src="assets/moviewave.png" class="logoblokimg">
         </a>
-        <div class="dropdownblok">
-            <a class="dropdowntekst">Home</a>
-            <a class="dropdowntekst">Store</a>
-            <a class="dropdowntekst">Catagories</a>
-        </div>
         </div>
         <div class="signin_nav">
             <div class="signin_navspace"></div>
@@ -30,7 +26,8 @@
                 <div class="settings">
 
                 </div>
-                <button class="signintekst" onclick="location.href='pages/signin.php'">Sign in</button>
+                
+                <button class="signintekst" onclick="location.href='pages/signin.php'">Dashboard</button>
             </div>
         </div>
     </nav>
@@ -38,21 +35,11 @@
       <a href="movies/movie.php" class="headerbox1">
             <img src="assets/duneparttwo.webp" class="headerimg1">
       </a>
-        <a class="headerbox2">
-            <img src="assets/placeholder.jpg" class="headerimg2">
-        </a>
-
-        <!-- <?php
-        $stmt = $connection->query("SELECT * FROM user WHERE id = 1");
-        $user = $stmt->fetch();
-
-        echo $user['username'];
-        echo "<br>";
-
-        while ($row = $stmt->fetch()) {
-            echo $row["username"] ."<br />\n";
-        }
-        ?> -->
+        <div class="headerbox2">
+            <a class="headerboxtekst1">Dune: Part two.</a>
+            <a class="headerboxtekst2">Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.</a>
+            <a class="headerboxtekst3">Rating: 8,8/10 ⭐</a>
+        </div>
     </header>
     <!-- Body -->
     <div class="container1">
@@ -72,12 +59,68 @@
     <?php
     include("include/movierow4.php");
     ?>
-
+    </div>
 
     <div class="container3">
+        <div class="container3blok1">
+        <a class="container3tekst1">If you're not a member already, sign up!</a>
+        <a class="container3tekst1">Benefits:</a>
+        <a class="container3tekst2"> ➕ Watch movies for completely free! ➕ </a>
+        <a class="container3tekst2"> ➕ Create a watchlist with all your favorites. ➕ </a>
+        <a class="container3tekst2"> ➕ Watch the latest movies free of charge! ➕ </a>
+        <a class="container3tekst1">If you already have an account,</a>
+        <a class="container3tekst2">login here:</a>
+        <a class="container3button" onclick="location.href='pages/singin.php'">
+                    Login
+        </a>
 
+        </div>
+        <div class="container3blok2">
+        <form class='signup_form' name="register" method="POST" action="pages/signup_logic.php">
+                <a class='register_tekst2'>Sign Up</a>
+                <div class="signin_row">
+                    <p class="rowtekst">Username
+                    <p>
+                        <input type='tekst' name='username' class="rowinput" required>
+                </div>
+                <div class="signin_row">
+                    <p class="rowtekst">Email
+                    <p>
+                        <input type='tekst' name='email' class="rowinput" required>
+                </div>
+                <div class="signin_row">
+                    <p class="rowtekst">Password
+                    <p>
+                        <input type='password' name='password' class="rowinput" required>
+                </div>
+                <div class="signin_row">
+                    <p class="rowtekst">Age
+                    <p>
+                        <input type='tekst' name='age' class="ageimput" required>
+                </div>
+                <div class="signin_row">
+                    <p class="rowtekst">Terms and conditions:
+                    <p>
+                        <input type='checkbox' name='terms' class="rowcheckbox" required>
+                </div>
+                <div class="signin_row">
+                    <input type='submit' name='submit' value='Register' class="rowsubmit" required>
+                </div>
+            </form>
+        </div>
     </div>
     <!-- Footer -->
+    <footer>
+        <div class="footerblok">
+            <div class="footerblok1">
+                <img class="footericon" src="assets/twitter.png"></img>
+                <img class="footericon" src="assets/instagram.png"></img>
+
+            </div>
+            <div class="footerblok2">
+                <a class="footertekst">MovieWave 2024 © </a>
+            </div>
+        </div>
 </body>
 
 </html>

@@ -39,10 +39,13 @@
                         <input type='checkbox' name='terms' class="rowcheckbox" required>
                 </div>
                 <div class="signin_row">
-                    <input type='submit' name='submit' value='register' class="rowsubmit" required>
+                    <input type='submit' name='submit' value='Register' class="rowsubmit" required>
                 </div>
                 <a class="gotobutton" onclick="location.href='signin.php'">
                     If you already have a account, click me to login!
+                </a>
+                <a class="gotobutton2" onclick="location.href='/index.php'">
+                    Back to the main menu...
                 </a>
             </form>
         </div>

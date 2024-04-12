@@ -26,21 +26,8 @@ nav{
 .logoblokimg{
     width: 200px;
 }
-.dropdownblok{
-    height: 100%;
-    width: 30%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.dropdowntekst{
-    font-size: 28px;
-    color: white;
-    background: transparent;
-}
 .signin_nav{
-    width: 50%;
+    width: 80%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -48,11 +35,11 @@ nav{
     justify-content: center;
 }
 .signin_navspace{
-    width: 70%;
+    width: 100%;
     height: 100%;
 }
 .signin_blok{
-    width: 30%;
+    width: 20%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -102,20 +89,43 @@ header{
     border-radius: 35px;
     margin-left: 25px;
 }
-
 .headerbox2{
     height: 83%;
     width: 30%;
     background-color: #1A1A1A;
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    align-items: baseline;
+    flex-direction: column;
     justify-content: center;
     border-radius: 35px;
 }
-.headerimg2{
-    width: 300px;
-    border-radius: 35px;
+.headerboxtekst1{
+    color: white;
+    background: none;
+    font-size: 32px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+}
+.headerboxtekst2{
+    color: white;
+    background: none;
+    font-size: 28px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+}
+.headerboxtekst3{
+    color: white;
+    background: none;
+    font-size: 28px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    margin-top: 35px;
 }
 /* !!!! */
 /* Body */
@@ -176,6 +186,60 @@ header{
 .container3{
     height: 100vh;
     width: 99vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container3blok1{
+    height: 75vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #1a1a1a;
+}
+.container3tekst1{
+    font-size: 26px;
+    color: white;
+    background: none;
+    margin-top: 95px;
+}
+.container3tekst2{
+    font-size: 26px;
+    color: white;
+    background: none;
+}
+.container3blok2{
+    height: 75vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #1a1a1a;
+}
+.container3button{
+    width: 100px;
+    padding: 15px;
+    background-color: #3a3a3a;
+    color: white;
+    margin-top: 35px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.register_tekst2{
+    font-size: 40px;
+    color: white;
+    background: none;
+    padding: 15px;
+    margin-top: 7.5%;
 }
 /* Sign Up Page & Dashboard etc...*/
 .signupcontainer{
@@ -273,6 +337,18 @@ header{
     width: 900px;
     cursor: pointer;
     border: 0;
+    margin-right: 5%;
+}
+.gobackdash2{
+    color: white;
+    font-size: 28px;
+    background-color: #1A1A1A;
+    padding: 15px;
+    border-radius: 50px;
+    width: 500px;
+    cursor: pointer;
+    border: 0;
+    margin-right: 2%;
 }
 .dashcontainer{
     height: 80vh;
@@ -294,11 +370,21 @@ header{
     padding: 15px;
     background-color: #3a3a3a;
     color: white;
-    margin-top: 50px;
+    margin-top: 25px;
+    border-radius: 50px;
+    text-align: center;
+}
+.gotobutton2{
+    width: 200px;
+    padding: 15px;
+    background-color: #3a3a3a;
+    color: white;
+    margin-top: 25px;
     border-radius: 50px;
     text-align: center;
 }
 .gotobutton:hover{background-color: white; cursor: pointer; color: black;}
+.gotobutton2:hover{background-color: white; cursor: pointer; color: black;}
 /* Movie Page */
 .moviecontainer{
     width: 99vw;
@@ -311,29 +397,68 @@ header{
 .movieblok1{
     width: 30%;
     height: 90%;
-    background-color: #3a3a3a;
+    background-color: #1a1a1a;
     border-radius: 50px;
-    justify-content: baseline;
+    justify-content: center;
     flex-direction: column;
+    align-items: baseline;
     display: flex;
 }
 .movieblok2{
     width: 60%;
     height: 90%;
-    background-color: #3a3a3a;
+    background-color: #1a1a1a;
     border-radius: 50px;
 }
 .movietitletekst{
     font-size: 35px;
     color: white;
     background: none;
-    padding: 55px;
+    margin-bottom: 55px;
+    margin-top: 55px;
 }
 .moviedescriptiontekst{
     font-size: 25px;
     color: white;
     background: none;
-    margin-left: 55px;
+    margin-left: 15px;
     width: 75%;
 }
+
 /* Footer */
+.footerblok{
+    width: 100%;
+    height: 100px;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footerblok1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    background: none;
+}
+.footerblok2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+.footertekst{
+    color: white;
+    font-size: 15px;
+    background: none;
+    margin-left: 75%;
+}
+.footericon{
+    width: 42px;
+    height: 42px;
+    margin-left: 12.5px;
+    background: none;
+}

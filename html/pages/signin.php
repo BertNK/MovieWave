@@ -24,10 +24,13 @@
                         <input type='password' name='password' class="rowinput" required>
                 </div>
                 <div class="signin_row">
-                    <input type='submit' name='submit' value='register' class="rowsubmit" required>
+                    <input type='submit' name='submit' value='Login' class="rowsubmit" required>
                 </div>
                 <a class="gotobutton" onclick="location.href='signup.php'">
-                    If you already have a account, click me to login!
+                    If you dont have an account yet, click me to create one!
+                </a>
+                <a class="gotobutton2" onclick="location.href='/index.php'">
+                    Back to the main menu...
                 </a>
             </form>
         </div>
